@@ -8,37 +8,81 @@
   
   <title>Frontend Mentor | Typemaster pre-launch landing page</title>
 </head>
-<body>
-  Pre-order now
+<body class="main-container">
+  <!-- header class for logo and button -->
+  <header class="header">
+    <img src="assets/shared/logo.svg" alt="Typemaster Logo">
+    <button class="btn grey-btn">Pre-order now</button>
+  </header>
+  <!-- END header class -->
 
-  Typemaster keyboard
+  <!-- Grid container class to be used for layout -->
+  <main class="grid-container"> 
+    
+    <!-- hero class -->
+    <article class="hero">
+      <h1 class="main-headline">Typemaster keyboard</h1>
+      <p class="hero-content">Improve your productivity and gaming without breaking the bank. Upgrade to a high quality mechanical typing experience.</p>
+      <div class="hero-info">
+        <button class="btn orange-btn">Pre-order now</button>
+        <h4 class="release-date-copy">Release on 5/27</h4>
+      </div>
+    </article>
+    <!-- END hero class -->
 
-  Improve your productivity and gaming without breaking the bank. Upgrade to a high quality 
-  mechanical typing experience.
+    <!-- Containers to hold images -->
+    <figure class="img keyboard-img"></figure>
+    <figure class="img pattern-square-right-img"></figure>
+    <figure class="img pattern-square-left-img"></figure>
+    <figure class="img orange-keyboard-img"></figure>
+    <figure class="img glass-and-keyboard-img"></figure>
 
-  Pre-order now
-  Release on 5/27
+    <!-- Container for general info about the product -->
+    <article class="general-info-container">
+      <h2 class="info-article-headline">Mechanical wireless keyboard</h2>
+      <p class="info-article-copy">The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety of switches and keycaps, along with reliable wireless connectivity.</p>
+    </article>
+    <!-- END general-info-container -->
 
-  Mechanical wireless keyboard
-  The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety 
-  of switches and keycaps, along with reliable wireless connectivity.
+    <!-- Product specs container -->
+    <article class="product-specs-container">
 
-  Highly compatible
-  Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
-  Plug & play, no installation or driver needed.
+      <!-- compatibility spec container -->
+      <section class="product-spec compatibility-spec">
+        <h3 class="compatibility-spec-headline">Highly compatible</h3>
+        <p class="compatibility-spec-copy">Easy to use and works well with all major computer brands, gaming consoles and mobile devices. Plug & play, no installation or driver needed.</p>
+      </section>
+      <!-- END compatibility spec container -->
 
-  Wireless with bluetooth
-  Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away. 
-  Simply plug the unifying receiver into your computer.
+      <!-- bluetooth spec container -->
+      <section class="product-spec bluetooth-spec">
+        <h3 class="bluetooth-spec-headline">Wireless with bluetooth</h3>
+        <p class="bluetooth-spec-copy">Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away. Simply plug the unifying receiver into your computer.</p>
+      </section>
+      <!-- END bluetooth spec container -->
 
-  High capacity battery
-  Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on replaceable ones. 
-  Enjoy 40 hours of usage time between charges.
+      <!-- battery spec container -->
+      <section class="product-spec battery-spec">
+        <h3 class="battery-spec-headline">High capacity battery</h3>
+        <p class="battery-spec-copy">Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on replaceable ones. Enjoy 40 hours of usage time between charges./p>
+      </section>
+      <!-- END battery spec container -->
 
-  RGB backlit modes
-  Choose from 4 backlight brightness levels and adjustable breathing speed. Each key glows intensely in the dark and helps
-  you type in low light conditions.
+      <!-- backlit spec container -->
+      <section class="product-spec backlit-spec">
+        <h3 class="backlit-spec-headline">RGB backlit modes</h3>
+        <p class="backlit-spec-copy">Choose from 4 backlight brightness levels and adjustable breathing speed. Each key glows intensely in the dark and helps you type in low light conditions.</p>
+      </section>
+      <!-- END backlit-spec-container -->
 
-  Typemaster 2021 | All Rights Reserved
+    </article>
+    <!-- END product-specs-container -->
+
+  </main> 
+  <!-- END grid-container class -->
+
+  <footer class="footer">
+    <span class="typemaster-bold-copy">Typemaster 2021</span> | All Rights Reserved
+  </footer>
 </body>
 </html>
