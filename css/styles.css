@@ -1,0 +1,56 @@
+/******************************************************/
+                  /* IMPORTS */
+/******************************************************/
+
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+/******************************************************/
+                  /* VARIABLES */
+/******************************************************/
+
+
+:root {
+
+
+  /* COLORS */
+
+  --bright-orange: hsl(22, 89, 52);
+  --light-orange: hsl(22, 100, 69);
+  --dark-blue: hsl(220, 50, 17);
+  --blue-gray: hsl(221, 23, 58);
+  --light-blue-gray: hsl(198, 28, 93);
+  --white: hsl(0, 0, 100);
+
+
+  /* TYPOGRAPHY */
+
+  /* Font-Family */
+  --barlow: 'Barlow', sans-serif;
+
+  /* Font-Weights */
+  --medium-font-weight: 500;
+  --bold-font-weight: 700;
+  --black-font-weight: 900;
+
+  /* Font-Size */
+  --font-size: 16px;
+
+}
+
+html {
+  font-size: var(--font-size);
+  font-family: var(--barlow);
+}
+
+
+.main-container {
+  width: 375px;
+  margin: 0 auto;
+
+}
+
+
+
