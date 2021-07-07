@@ -7,11 +7,20 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
   <title>Frontend Mentor | Typemaster pre-launch landing page</title>
+
+  <!-- TEMPORARY STYLES!!!!!! -->
+  <style>
+    .icon-container {
+      height: 60px;
+      width: 60px;
+      background-color: orange;
+    }
+  </style>
 </head>
 <body class="main-container">
   <!-- header class for logo and button -->
   <header class="header">
-    <img src="assets/shared/logo.svg" alt="Typemaster Logo">
+    <img class="typemaster-logo" src="assets/shared/logo.svg" alt="Typemaster Logo">
     <button class="btn grey-btn">Pre-order now</button>
   </header>
   <!-- END header class -->
@@ -49,6 +58,9 @@
 
       <!-- compatibility spec container -->
       <section class="product-spec compatibility-spec">
+        <figure class="icon-container">
+          <img class="icon compatible-icon" src="assets/shared/icon-compatible.svg" alt="desktop monitor icon">
+        </figure>
         <h3 class="compatibility-spec-headline">Highly compatible</h3>
         <p class="compatibility-spec-copy">Easy to use and works well with all major computer brands, gaming consoles and mobile devices. Plug & play, no installation or driver needed.</p>
       </section>
@@ -56,6 +68,9 @@
 
       <!-- bluetooth spec container -->
       <section class="product-spec bluetooth-spec">
+        <figure class="icon-container">
+          <img class="icon bluetooth-icon" src="assets/shared/icon-bluetooth.svg" alt="bluetooth icon">
+        </figure>
         <h3 class="bluetooth-spec-headline">Wireless with bluetooth</h3>
         <p class="bluetooth-spec-copy">Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away. Simply plug the unifying receiver into your computer.</p>
       </section>
@@ -63,6 +78,9 @@
 
       <!-- battery spec container -->
       <section class="product-spec battery-spec">
+        <figure class=icon-container>
+          <img class="icon battery-icon" src="assets/shared/icon-battery.svg" alt="battery icon">
+        </figure>
         <h3 class="battery-spec-headline">High capacity battery</h3>
         <p class="battery-spec-copy">Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on replaceable ones. Enjoy 40 hours of usage time between charges./p>
       </section>
@@ -70,6 +88,9 @@
 
       <!-- backlit spec container -->
       <section class="product-spec backlit-spec">
+        <figure class="icon-container">
+          <img class="icon backlit-icon" src="assets/shared/icon-light.svg" alt="rgb backlit icon">
+        </figure>
         <h3 class="backlit-spec-headline">RGB backlit modes</h3>
         <p class="backlit-spec-copy">Choose from 4 backlight brightness levels and adjustable breathing speed. Each key glows intensely in the dark and helps you type in low light conditions.</p>
       </section>
@@ -86,6 +107,6 @@
     <span class="typemaster-bold-copy">Typemaster 2021</span> | All Rights Reserved
   </footer>
   <!-- END footer -->
-  
+
 </body>
 </html>
