@@ -50,6 +50,7 @@
 html {
   font-size: var(--font-size);
   font-family: var(--barlow);
+  font-weight: var(--medium-font-weight);
 }
 
 /* BODY .main-container */
@@ -64,11 +65,17 @@ html {
 
 /* BUTTONS */
 
+/* Shared Button Styles */
 .btn {
   width: 9.375rem;
   height: 3rem;
+  padding: 0;
+  margin: 0;
   border: none;
   border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-weight: var(--bold-font-weight);
+  line-height: 1.625rem;
 }
 
 /* HEADER */
@@ -83,19 +90,68 @@ html {
   align-items: center;
 }
 
+/* Typemaster Logo */
 .typemaster-logo {
   width: 2.5rem;
   height: 2.5rem;
 }
 
+/* Header Button */
 .header-btn {
-  padding: 0;
-  margin: 0;
   background-color: var(--light-blue-gray);
   color: var(--dark-blue);
+}
+
+/* HERO */
+
+/* Hero Container */
+.hero {
+  width: 20.4375rem;
+  height: 17.875rem;
+  margin: 0 1.5rem 4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero Main Headline */
+.main-headline {
+  font-size: 3rem;
+  font-weight: var(--black-font-weight);
+  line-height: 3rem;
   text-transform: uppercase;
-  font-weight: var(--bold-font-weight);
+  color: var(--dark-blue);
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Copy */
+.hero-copy {
+  color: var(--blue-gray);
+  margin: 2rem 0;
   line-height: 1.625rem;
 }
 
+
+/* Hero Info Container */
+.hero-info {
+  width: 19.375rem;
+  height: 3rem;
+  margin: 0 1.125rem 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Orange Button */
+.orange-btn {
+  background-color: var(--bright-orange);
+  color: var(--white);
+}
+
+/* Release Date Copy */
+.release-date-copy {
+  text-transform: uppercase;
+  color: var(--blue-gray);
+  font-weight: var(--bold-font-weight);
+}
 
