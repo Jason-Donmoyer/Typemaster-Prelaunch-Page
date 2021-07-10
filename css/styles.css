@@ -59,6 +59,8 @@ html {
   width: 375px;
   margin: 0 auto;
   background-color: var(--white);
+  display: grid;
+  justify-items: center;
 }
 
 /***************** SHARED STYLES ********************/
@@ -153,5 +155,23 @@ html {
   text-transform: uppercase;
   color: var(--blue-gray);
   font-weight: var(--bold-font-weight);
+}
+
+/* IMAGES */
+/* Most images remain hidden on mobile devices */
+
+/* Shared Image Styles */
+.img {
+
+}
+
+/* Keyboard Image */
+.keyboard-img {
+  width: 23.25rem;
+  height: 20.6875rem;
+  padding: 0;
+  margin: 0 0 1.5rem 1.5rem;
+  background-image: url(../assets/mobile/image-keyboard.jpg);
+  background-size: contain;
 }
 
